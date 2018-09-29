@@ -8,5 +8,12 @@
 
 import Foundation
 
-print("Hello, World!")
-
+var n=1
+var i=0
+var sum=0
+for _ in 1...100
+{
+    sum=sum+n
+    n=n+1
+}
+print(sum)
